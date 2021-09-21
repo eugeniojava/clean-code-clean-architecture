@@ -1,0 +1,28 @@
+{
+  "name": "clean-code-clean-architecture",
+  "version": "1.0.0",
+  "description": "Clean code and clean architecture hands-on course",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest dist/",
+    "tsc:init": "tsc --init",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeniojava/clean-code-clean-architecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugeniojava/clean-code-clean-architecture/issues"
+  },
+  "homepage": "https://github.com/eugeniojava/clean-code-clean-architecture#readme",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.1"
+  }
+}
